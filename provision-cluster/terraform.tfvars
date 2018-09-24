@@ -1,0 +1,13 @@
+ecs_cluster="noship-cluster"
+ecs_key_pair_name="testship"
+vpc_name = "stage"
+vpc_cidr_block = "210.0.0.0/16"
+vpc_public_subnet_1_cidr = "210.0.10.0/24"
+vpc_private_subnet_1_cidr = "210.0.0.0/24"
+vpc_access_from_ip_range = "0.0.0.0/0"
+max_instance_size = 3
+min_instance_size = 1
+desired_capacity = 2
+postgres_db_name = "laravel"
+postgres_db_username = "laraveluser"
+postgres_db_password = "testpass"
